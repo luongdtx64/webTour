@@ -1,0 +1,102 @@
+{
+  "account": [
+    {
+      "id": 1,
+      "nameuser": "admin",
+      "password": "1",
+      "phone": "",
+      "email": "",
+      "typeAccount": "admin"
+    },
+    {
+      "id": 2,
+      "nameuser": "guest",
+      "password": "1",
+      "phone": "",
+      "email": "",
+      "typeAccount": "guest"
+    },
+    {
+      "nameuser": "luongdtx8",
+      "password": "1",
+      "phone": "1",
+      "email": "luongdtx64@gmail.com",
+      "typeAccount": "guest",
+      "id": 3
+    },
+    {
+      "nameuser": "maixuanhuy",
+      "password": "1",
+      "phone": "4",
+      "email": "huy@gmail.com",
+      "typeAccount": "guest",
+      "id": 5
+    },
+    {
+      "nameuser": "test",
+      "password": "1",
+      "phone": "1",
+      "email": "1@gmail.com",
+      "typeAccount": "guest",
+      "id": 6
+    }
+  ],
+  "tour": [
+    {
+      "id": 1,
+      "nameTour": "Làng cổ lộc yên",
+      "imageurl": "/img/langcoLocYen.jpg",
+      "content": "Làng cổ Lộc Yên là một ngôi làng xưa nằm ở huyện Lộc Yên, tỉnh Lạng Sơn, Việt Nam. Nơi đây được biết đến với kiến trúc độc đáo của các ngôi nhà gỗ, cùng với các công trình tôn giáo, chùa, đình, miếu. Làng cổ Lộc Yên được xây dựng từ thế kỷ 17 và vẫn giữ được nét truyền thống, văn hóa của người dân địa phương. Ngoài ra, Làng cổ Lộc Yên còn nổi tiếng với các sản phẩm thủ công mỹ nghệ địa phương như chăn, áo, khăn quàng, túi xách, đồ gỗ...",
+      "stt": "empty"
+    },
+    {
+      "id": 2,
+      "nameTour": "Chợ quê tiên phước",
+      "imageurl": "/img/choque.jpg",
+      "content": "Chợ Quê Tiên Phước là một chợ nằm ở xã Tiên Phước, huyện Tiên Phước, tỉnh Quảng Nam, Việt Nam. Chợ này nổi tiếng với các sản phẩm đặc trưng của vùng đất Quảng Nam như bánh tráng cuốn thịt heo, bánh tráng nướng, bánh căn, bánh xèo, nem nướng, bánh đúc nóng...Ngoài ra, chợ cũng có các sản phẩm nông sản tươi sống, đặc sản hải sản và đồ thủ công mỹ nghệ. Chợ Quê Tiên Phước là một điểm đến thú vị cho du khách muốn khám phá ẩm thực và văn hóa của vùng đất Quảng Nam.",
+      "stt": "empty"
+    },
+    {
+      "id": 3,
+      "nameTour": "Nhà lưu niệm huỳnh thúc kháng",
+      "imageurl": "/img/huynhthuckhang.jpg",
+      "content": "Nhà lưu niệm Huỳnh Thúc Kháng là một di tích lịch sử và văn hóa nằm tại số 5 đường Lê Thánh Tôn, quận 1, thành phố Hồ Chí Minh, Việt Nam. Nhà lưu niệm được xây dựng vào năm 1895 và từng là nơi ở của ông Huỳnh Thúc Kháng - một trong những nhà cách mạng và nhà văn hóa lớn của Việt Nam. Hiện nay, nhà lưu niệm trở thành một bảo tàng với nhiều hiện vật, tài liệu và hình ảnh tái hiện cuộc đời và sự nghiệp của ông Huỳnh Thúc Kháng. Du khách có thể tới đây để tìm hiểu thêm về lịch sử và văn hóa của Việt Nam, đặc biệt là thời kỳ đầu thế kỷ 20.",
+      "stt": "empty"
+    },
+    {
+      "id": 4,
+      "nameTour": "Hang dơi tiên an",
+      "imageurl": "/img/hangdoi1.jpg",
+      "content": "Hang Dơi Tiên An là một hang động nằm tại xã Tiên An, huyện Tiên Phước, tỉnh Quảng Nam, Việt Nam. Hang có tổng chiều dài khoảng 2,5km và được xếp hạng là hang động đẹp nhất Quảng Nam. Nơi đây nổi tiếng với hệ thống hầm thủy chung bao gồm hồ nước, thác nước, sông ngầm, nước biếc trong veo và nhiều dòng thác nhỏ. Trong hang còn có đàn dơi và các loài động vật khác sinh sống. Du khách có thể tham gia các tour khám phá hang động để khám phá và tận hưởng vẻ đẹp tự nhiên tuyệt vời của nơi này.",
+      "stt": "empty"
+    }
+  ],
+  "datTour": [
+    {
+      "id": 1,
+      "nameTour": "",
+      "nameuser": "",
+      "diemdon": "",
+      "thoigian": ""
+    },
+    {
+      "nametour": "Hang dơi tiên an",
+      "nameuser": "admin",
+      "diemdon": "Hà Nội",
+      "thoigian": "2 ngày 1 đêm",
+      "id": 2
+    }
+  ],
+  "gopy": [
+    {
+      "id": 1,
+      "nameuser": "",
+      "cmt": ""
+    },
+    {
+      "nameuser": "luongdtx8",
+      "gopy": "đm nhà phát hành web",
+      "id": 2
+    }
+  ]
+}
