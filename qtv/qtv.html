@@ -6,18 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./qtv.css">
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
 </head>
 <body>
     <h2 class="text-center">Đây là tính năng dành cho quản trị viên</h2>
     <h3 class="text-center">Nếu bạn không phải quản trị viên xin hãy quay lại</h3>
-    <button class="addtour">Thêm Tour</button>
-    <form class="form-add-tour d-flex flex-column w-25" action="">
-        <label for="">Tên tour</label>
-        <input type="text" name="" id="">
-        <label for="">Mô tả</label>
-        <input type="text" name="">
-        <label for="">Hình ảnh</label>
-        <input type="file" name="" id="">
-    </form>
+    <ul class="link-list">
+
+    </ul>
+    <h3>Danh sách tour hiện có</h3>
+    <button id="btn-add" class="btn-crud">Thêm</button>
+    
+    <ul class="list-tour d-flex flex-column align-items-center justify-content-center">
+    </ul>
+    <div class="modalCreate">
+        <form class="formAdd d-flex flex-column align-items-center justify-content-center">
+            <button onclick="hideModal(modalCreate)" class="btn-close align-self-end"><i class="ti-close"></i></button>
+            <label class="label" for="name">Tên tour:</label>
+            <input class="input-group-text" type="text" id="name" name="nametour" required>
+            <label class="label" for="description">Mô tả:</label>
+            <input type="text" class="input-group-text" id="description" name="description" required></input>
+            <label class="label" for="image">Hình ảnh:</label>
+            <input class="input-group-text" id="img-file" type="file" name="image" required>
+            <button class="btnAddTour" type="submit">Thêm tour</button>
+        </form>
+     </div>
+     <div class="modalUpdate">
+        <form class="formUpdate d-flex flex-column align-items-center justify-content-center">
+            <button onclick="hideModal(modalUpdate)" class="btn-close align-self-end"><i class="ti-close"></i></button>
+            <label class="label" for="name">Tên tour:</label>
+            <input class="input-group-text" type="text" id="name" name="nametourupdate" required>
+            <label class="label" for="description">Mô tả:</label>
+            <input type="text" class="input-group-text" id="description" name="descriptionupdate" required></input>
+            <label class="label" for="image">Hình ảnh:</label>
+            <input class="input-group-text" id="img-file" type="file" name="imageupdate" required>
+            <button class="btnAddTour" type="submit">Lưu</button>
+        </form>
+     </div>
+    
+    
+    
 </body>
+<script src="./qtv.js"></script>
 </html>

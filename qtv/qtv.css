@@ -1,0 +1,79 @@
+.list-tour{
+    list-style-type: none;
+}
+.img-tour{
+    width:300px;
+    height: 200px;
+    position: relative;
+}
+.tour-link{
+    min-width: 200px;
+    text-decoration-line: none;
+    color: #000;
+    font-size: 20px;
+}
+.list-tour-box{
+    width:50%;
+}
+.list-tour-item + .list-tour-item{
+    margin-left: 40px;
+}
+.btn-crud{
+    background-color: #9ad0db;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    min-width: 80px;
+}
+.modalCreate{
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.4);
+    display:none;
+}
+.formAdd{
+    margin: auto;
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.formAdd input[name="description"]{
+    width: 90%;
+    height: 300px;
+}
+.btnAddTour{
+    background-color: #9ad0db;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+}
+.modalUpdate{
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.4);
+    display:none;
+}
+.formUpdate{
+    margin: auto;
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.formUpdate input[name="descriptionupdate"]{
+    width: 90%;
+    height: 300px;
+}

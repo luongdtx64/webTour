@@ -1,7 +1,7 @@
 const boxAccount = document.querySelector('.box-account')
 const userBox = document.querySelector('.user-box')
 var userName = document.querySelector('.user-name')
-var btnCheckLoginGuest = document.querySelector('.btn-Check-Login-Guest')
+var btnCheckLoginGuest = document.querySelector('.btn-Check-Login')
 console.log(btnCheckLoginGuest)
 async function checkLoginGuest(){
     var username = document.querySelector('input[name="userLogin"]').value

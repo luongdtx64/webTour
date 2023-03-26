@@ -17,18 +17,15 @@ function renderTour(tours){
         return `
             <div class="list-tour-box d-flex">
                 <li class="list-tour-item d-flex flex-column">
-                    <a href="/asset/booktour/langco.html" class="tour-link">${tour.nameTour}</a>
+                    <a href="#" class="tour-link">${tour.nameTour}</a>
                     <img class="img-tour" src="${tour.imageurl}" alt="" srcset="">
                     <div>
                         <p class="tour-content">${tour.content}</p>
                     </div>
-                    
                 </li>
             </div>
         `
     })
     listTour.innerHTML = htmls.join('')
-    // <div class="box-crud">
-//           <button class="btn-crud"><i class="fa-solid fa-ellipsis"></i></button>
-//      </div>
+
 }
